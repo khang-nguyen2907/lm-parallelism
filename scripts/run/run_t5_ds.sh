@@ -1,5 +1,5 @@
-accelerate launch --config_file lm-parallelism/src/configs/accelerate/accelerate_dp.yaml src/t5/t5_summarization.py \
-    --model_name_or_path t5-3b \
+accelerate launch src/t5/t5_summarization.py \
+    --model_name_or_path t5-large \
     --dataset_name cnn_dailymail \
     --dataset_config "3.0.0" \
     --source_prefix "summarize: " \

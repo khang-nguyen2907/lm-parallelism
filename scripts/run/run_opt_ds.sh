@@ -1,4 +1,4 @@
-accelerate launch --config_file lm-parallelism/src/configs/accelerate/accelerate_dp.yaml src/opt/opt_clm.py \
+accelerate launch src/opt/opt_clm.py \
     --model_name_or_path facebook/opt-1.3b \
     --dataset_name wikitext \
     --dataset_config_name wikitext-2-raw-v1 \
