@@ -1,0 +1,8 @@
+git+https://github.com/huggingface/transformers.git
+accelerate
+deepspeed
+datasets
+evaluate
+SentencePiece
+rouge_score
+tensorboard
